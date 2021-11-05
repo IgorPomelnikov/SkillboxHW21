@@ -1,0 +1,12 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = Model.FirstName;
+}
+<body>
+    <p>ID: @Model.Id</p>
+    <p>ФИО: @Model.LastName @Model.FirstName @Model.FatherName</p>
+    <p>Тел.: @Model.Telephone</p>
+    <p>Адрес: @Model.Adress</p>
+    <p>Почта: @Model.Mail</p>
+    <p>Описание: @Model.Description</p>
+</body>
